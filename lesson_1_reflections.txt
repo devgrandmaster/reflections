@@ -1,0 +1,10 @@
+Viewing a diff between two versions of the file help me see the bug introduced to the program by comparing the changes made into that file in the new version that is not working.
+Having easy access to the entire history of a file make me a more efficient programmer in the long term because if I need to revert to an older version of the program I would be able to do that.
+The cons of manually choosing when to create a commit:
+-Sometimes you forget to commit so the commit becomes too big and harder to track
+The pros of manually choosing when to creat a commit:
+-You can manage when the commit is made when a logical change is created so this makes sure that the commit is just the right size and easy to track (not too small)
+Some version control systems like Git allow saving multiple files in one commit because in coding we often use multiple files and changes in one file affects another file for the program to run correctly. Google Docs treat each file separately because the changes in one file most often don't affect another file.
+I can use git log to browse through all the commits and use git diff to see the difference between two commits (addition and deletion of lines)
+Using version control make me confident to make changes that could break something because if I do break something I can use git checkout to go back and run to the previous versions of the program one at a time until I find the version that works properly, hence find the version when the bug was introduced. From there I can use git diff to find exactly what the bug is by comparing the working version and the broken version.
+The Git Workspace is set up so now the prompt will show the commit number and star if changes have not yet committed. It also enables me to use tab to autocomplete commands and use Sublime as the default text editor.
