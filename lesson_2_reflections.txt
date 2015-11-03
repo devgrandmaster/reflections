@@ -1,0 +1,2 @@
+When I initialize a repository a git repository (.git) is created but no commit is created. Why do I need to do it?
+Staging area is a temporary location between a working directory and repository where you can add or remove file(s) before being committed to a repository. The value it offers is that you can undo adding a file that you might think should not go to the repository.
