@@ -1,2 +1,8 @@
 When I initialize a repository a git repository (.git) is created but no commit is created. Why do I need to do it?
 Staging area is a temporary location between a working directory and repository where you can add or remove file(s) before being committed to a repository. The value it offers is that you can undo adding a file that you might think should not go to the repository.
+I can use staging area to make sure that I have one commit per logical change: After doing all the changes to the files in the working directory I can compare the working directory and staging area using git diff and review all the changes. And then I can decide which changes I should add/remove to the staging area for one logical change before I make a final decision to commit.
+Situations when branches would be helpful in keeping history organized are when I want to create different versions of the program such as experimental or easier version than the main/master version. Branches help because I can work on different multiple versions of the program.
+The diagrams help me visualize the branch structure by showing all the commits and their reachability.
+The result of merging two branches together is combining two branches into a single branch. We represent the diagram that way because it shows the relationship between each commit and its parent.
+Pros of Gits automatic merging vs always doing merges manually: Faster with no less headache.
+Cons of Gits automatic merging vs always doing merges manually: Some branches cannot merge automatically so we have to manually inspect the code to decide which lines of code should be deleted and which should remain.
