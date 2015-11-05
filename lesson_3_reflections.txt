@@ -11,3 +11,6 @@ A branch is another version of the project within a repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Having a copy of the last known state of the remote stored locally allows me to update the local copy of the remote branch and I don't have to combine them right away. And then I can access the updates on the remote even if I don't have Internet connection (such as in a plane or forest). 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaborating without using GitHub would be hard because the team won't be able to compare and test each other's work and if anything breaks it would be difficult to go back to an earlier version. However using Git and/or GitHub is a little bit difficult so each person has to learn how to use Git or GitHub first before working on the project.
